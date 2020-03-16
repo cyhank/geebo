@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Service;
 
 /**
- * @Author: hank
+ * @Author: Hank
  * @Desription 灵活的获取Spring Bean对象
  * @Date: Created in 10:44 2020/3/13
  */
