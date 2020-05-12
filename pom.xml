@@ -13,6 +13,7 @@
         <module>common</module>
         <module>api</module>
         <module>redis</module>
+        <module>mongodb</module>
     </modules>
 
     <properties>
@@ -36,6 +37,12 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--添加junit环境的jar包-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
         <!-- Redis -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,11 +60,6 @@
                 <artifactId>lombok</artifactId>
                 <version>1.18.10</version>
             </dependency>
-
-
-
-
-
         </dependencies>
 
     </dependencyManagement>

@@ -15,7 +15,7 @@ import java.util.HashMap;
  * @Date: Created in 0:39 2020/3/15
  */
 @RestController
-public class Test {
+public class ModelAndViewTest {
     @GetMapping("/test")
     public ModelAndView test(Model model) {
         HashMap map = new HashMap();
